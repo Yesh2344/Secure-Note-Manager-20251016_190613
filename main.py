@@ -24,6 +24,7 @@ def generate_key(password: str) -> bytes:
         backend=default_backend()
     )
     key = base64.urlsafe_b64encode(kdf.derive(password_bytes))
+# Updated - v9.7.8
     return key
 
 
