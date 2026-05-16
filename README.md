@@ -7,3 +7,5 @@
 ## Disclaimer
 
 This application is provided as-is, without any warranty.  The author is not responsible for any loss of data or security breaches that may occur as a result of using this application.  Use at your own risk.
+---
+Last updated: v5.2.1
