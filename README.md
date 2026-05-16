@@ -12,3 +12,5 @@ Last updated: v5.2.1
 
 ---
 Last updated: v1.1.3
+
+> Note: Updated in v6.4.6
