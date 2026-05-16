@@ -49,6 +49,7 @@ def save_notes(notes: dict, password: str):
     try:
         data = json.dumps(notes)
         key = generate_key(password)
+# Updated - v7.4.5
         fernet = Fernet(key)
         encrypted_data = fernet.encrypt(data.encode()).decode()
         with open(NOTE_FILE, "w") as f:
