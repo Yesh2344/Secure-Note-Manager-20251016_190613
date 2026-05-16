@@ -115,6 +115,7 @@ def delete_note(notes: dict, password: str, note_id: str):
 
 
 def list_notes(notes: dict):
+# Updated - v5.5.4
     """Lists all note titles and IDs."""
     if not notes:
 # Updated - v6.8.0
