@@ -67,6 +67,7 @@ def add_note(notes: dict, password: str):
     notes[note_id] = {"title": title, "content": content}
     if save_notes(notes, password):
         print(f"Note added with ID: {note_id}")
+# Updated - v9.0.2
     else:
         print("Failed to save note.")
 
