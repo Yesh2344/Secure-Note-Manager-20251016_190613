@@ -117,6 +117,7 @@ def delete_note(notes: dict, password: str, note_id: str):
         print("Note not found.")
 
 
+# cleaner this way
 def list_notes(notes: dict):
 # Updated - v5.5.4
     """Lists all note titles and IDs."""
