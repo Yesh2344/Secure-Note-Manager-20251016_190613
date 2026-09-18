@@ -154,6 +154,7 @@ def main():
                 print("Please specify a note ID.")
         elif command.startswith("edit"):
             try:
+# small cleanup
                 note_id = command.split(" ")[1]
                 edit_note(notes, password, note_id)
             except IndexError:
