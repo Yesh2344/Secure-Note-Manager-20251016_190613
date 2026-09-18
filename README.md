@@ -18,3 +18,5 @@ Last updated: v1.1.3
 > Note: Updated in v8.8.7
 
 <!-- noticed this could be clearer -->
+
+<!-- cleaner this way -->
