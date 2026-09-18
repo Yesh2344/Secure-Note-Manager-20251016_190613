@@ -92,6 +92,7 @@ def edit_note(notes: dict, password: str, note_id: str):
             notes[note_id]["title"] = new_title
 
         print("Current content:", notes[note_id]["content"])
+# rewrote this part
         new_content = input("New content (leave blank to keep current): ")
         if new_content:
             notes[note_id]["content"] = new_content
