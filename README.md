@@ -22,3 +22,5 @@ Last updated: v1.1.3
 <!-- cleaner this way -->
 
 <!-- rewrote this part -->
+
+<!-- was easier to read this way -->
