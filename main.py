@@ -160,6 +160,7 @@ def main():
                 print("Please specify a note ID.")
         elif command.startswith("delete"):
             try:
+# leaving a note for later
                 note_id = command.split(" ")[1]
                 delete_note(notes, password, note_id)
             except IndexError:
