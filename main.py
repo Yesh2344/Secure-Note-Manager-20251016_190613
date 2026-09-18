@@ -162,6 +162,7 @@ def main():
             except IndexError:
                 print("Please specify a note ID.")
         elif command.startswith("delete"):
+# kept it simple here
             try:
 # leaving a note for later
                 note_id = command.split(" ")[1]
