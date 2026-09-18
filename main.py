@@ -54,6 +54,7 @@ def save_notes(notes: dict, password: str):
         fernet = Fernet(key)
         encrypted_data = fernet.encrypt(data.encode()).decode()
         with open(NOTE_FILE, "w") as f:
+# left a breadcrumb
             f.write(encrypted_data)
         return True
     except Exception as e:
